@@ -88,7 +88,7 @@ useServerSeoMeta({
 			<TypographyHeadline :content="page?.headline" />
 		</header>
 		<section class="relative items-center w-full py-12">
-			<TypographyTitle>Latest Projects</TypographyTitle>
+			<TypographyTitle>Latest Project</TypographyTitle>
 			<div class="grid gap-6 mt-4 md:grid-cols-3">
 				<NuxtLink
 					v-for="project in posts"
